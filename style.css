@@ -1,0 +1,83 @@
+body {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    background-color: whitesmoke;
+    background-size: cover;
+  }
+  
+  .form-card {
+    background-image: url('https://bit.ly/3kJuHZD');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+    position: relative;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  .form-card1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcHibskVvDkukcR2PRWzmWxrY2ivpSFX8vGg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+    position: relative;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  
+  
+  
+  form.material {
+    position: relative;
+    padding-bottom: 40px;
+  }
+  
+  .material-input {
+    position: relative;
+    padding-top: 20px;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  .material-input label {
+    position: absolute;
+    pointer-events: none;
+    left: 4px;
+    top: 26px;
+    color: black;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  .material-input input {
+    border: none;
+    width: 100%;
+    color: #363636;
+    border-bottom: 2px solid darkgray;
+    padding: 6px 4px;
+    outline: none;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  .material-input.materialize input {
+    border-bottom: 2px solid crimson;
+  }
+  .material-input.materialize label {
+    top: 0;
+    left: 0;
+    color: crimson;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
